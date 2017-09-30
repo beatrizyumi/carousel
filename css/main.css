@@ -1,0 +1,45 @@
+/*
+Error: Inconsistent indentation: previous line was indented by 2 tabs, but this line was indented by 1 tab.
+        on line 21 of css/main.sass
+
+16: //.img-esquerda
+17: //	img
+18: //		width: 1050px
+19: 		// height: 400px
+20: 		// display: inline-block
+21: 	// .espaco
+22: 		// min-width: 1050px
+23: 		// width: 1050px
+24: 	// position: absolute
+25: 	// transition: all 2s
+26: 	// width: 99999px
+
+Backtrace:
+css/main.sass:21
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/engine.rb:509:in `try_comment'
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/engine.rb:482:in `block in tabulate'
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/engine.rb:452:in `each'
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/engine.rb:452:in `each_with_index'
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/engine.rb:452:in `tabulate'
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/engine.rb:417:in `_to_tree'
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: previous line was indented by 2 tabs, but this line was indented by 1 tab.\A         on line 21 of css/main.sass\A \A 16: //.img-esquerda\A 17: //	img\A 18: //		width: 1050px\A 19: 		// height: 400px\A 20: 		// display: inline-block\A 21: 	// .espaco\A 22: 		// min-width: 1050px\A 23: 		// width: 1050px\A 24: 	// position: absolute\A 25: 	// transition: all 2s\A 26: 	// width: 99999px"; }
